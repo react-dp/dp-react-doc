@@ -1,0 +1,31 @@
+{
+  "name": "dp-react-doc",
+  "version": "1.0.0",
+  "description": "react dianping doc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-dp/dp-react-doc.git"
+  },
+  "keywords": [
+    "react",
+    "doc"
+  ],
+  "author": "mengdong.wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/react-dp/dp-react-doc/issues"
+  },
+  "homepage": "https://github.com/react-dp/dp-react-doc#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "multer": "^1.1.0",
+    "node-jsx": "^0.13.3",
+    "react": "^0.14.0"
+  }
+}
