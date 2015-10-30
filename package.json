@@ -12,7 +12,8 @@
   },
   "keywords": [
     "react",
-    "doc"
+    "doc",
+    "dianping"
   ],
   "author": "mengdong.wang",
   "license": "ISC",
@@ -24,8 +25,15 @@
     "body-parser": "^1.14.1",
     "ejs": "^2.3.4",
     "express": "^4.13.3",
+    "gulp": "^3.9.0",
     "multer": "^1.1.0",
     "node-jsx": "^0.13.3",
-    "react": "^0.14.0"
+    "react": "^0.14.1",
+    "react-dom": "^0.14.1",
+    "react-router": "^1.0.0-beta3"
+  },
+  "devDependencies": {
+    "gulp-browserify": "^0.5.1",
+    "reactify": "^1.1.1"
   }
 }

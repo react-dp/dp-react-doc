@@ -1,16 +1,18 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>react——点评</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui" />
-    <meta name="format-detection" content="telephone=no">
-    <meta name="format-detection" content="email=no" />
-  </head>
-  <body>
-    <div>
-        <%- reactOutput %>
-    </div>
-  </body>
-</html>
+    <% include head.html %>
+    <div class="am-g doc-am-g">
+		<div class="am-u-sm-6 am-u-md-4 am-u-lg-3 contrain-l">
+				<ul class="am-list am-list-static am-list-border">
+					<% componentlist.forEach(function(item){ %>
+					    <li style="padding: 0px">
+							<a href=<%= "#/" + item.name %>>
+								<%= item.name %>
+							</a>
+						</li>
+					<% }) %>
+				</ul>
+		</div>
+		<div class="am-u-sm-6 am-u-md-8 am-u-lg-9 contrain-r" id="root">
+			欢迎使用
+		</div>
+	</div>
+    <% include footer.html %>
