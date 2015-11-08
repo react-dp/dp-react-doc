@@ -1,4 +1,10 @@
 	<div class="footer">@关于俺们</div>
   </body>
-  <script type="text/javascript" src="/js/main.js"></script>
+  	<script type="text/javascript" src="/js/zepto.js"></script>
+  	<% if(path == "/"){ %>
+  		<script type="text/javascript" src="/js/main.js"></script>
+  	<% } %>
+	<% if(path == "/upload"){ %>
+		<script type="text/javascript" src="/js/update.js"></script>
+	<% } %>
 </html>

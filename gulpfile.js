@@ -2,7 +2,7 @@ var gulp = require("gulp");
 var browserify = require("gulp-browserify");
 
 gulp.task('scripts', function () {
-    gulp.src(['app/main.js'])
+    gulp.src(['app/*'])
         .pipe(browserify({
             transform: [ 'reactify' ]
         }))
